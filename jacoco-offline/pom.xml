@@ -20,7 +20,7 @@
     <dependency>
       <groupId>org.evosuite</groupId>
       <artifactId>evosuite-standalone-runtime</artifactId>
-      <version>1.0.6-SNAPSHOT</version>
+      <version>1.0.6</version>
       <scope>test</scope>
     </dependency>
     <dependency>
@@ -50,7 +50,6 @@
           <destFile>${project.build.directory}/coverage-reports/jacoco-ut.exec</destFile>
           <!-- Sets the output directory for the code coverage report. -->
           <outputDirectory>${project.reporting.outputDirectory}/jacoco-ut</outputDirectory>
-	  <!--                            <excludes> <exclude>*</exclude> </excludes> -->
         </configuration>
         <executions>
           <execution>
